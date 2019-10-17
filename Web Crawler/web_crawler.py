@@ -53,15 +53,13 @@ for categoria in links_categorias:
         titulos_topicos.append(tag.text.rstrip().lstrip())
         # print(tag.text.rstrip().lstrip())
 
-'''for i in links_topicos:
-	print(i)
 '''
+for i in links_topicos:
+	print(i)
 
 for j in titulos_topicos:
 	print(j)
 
-
-'''
 print(titulos_topicos)
 print('\n')
 print(links_topicos)
