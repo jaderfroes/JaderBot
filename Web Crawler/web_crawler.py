@@ -45,15 +45,24 @@ for categoria in links_categorias:
     for link2 in soup2.find_all('a'):  # pega os links dos topicos
         if '/t/' in link2.get('href'):  # se link2 for de tópico('/t/')
             links_topicos.append(link2.get('href'))
-            
-
+            # print(link2.get('href'))
+           
     # pega os titulos dos topicos
     for tag in soup2.find_all("a", class_="title raw-link raw-topic-link"):
-        # adiciona texto da class 'a' removendo \n da direita e da esquerda(l/rstrip)
+        # adiciona texto da class 'a' removendo \n da direita e da esquerda(l/[r]strip)
         titulos_topicos.append(tag.text.rstrip().lstrip())
+        # print(tag.text.rstrip().lstrip())
+
+'''for i in links_topicos:
+	print(i)
+'''
+
+for j in titulos_topicos:
+	print(j)
 
 
+'''
 print(titulos_topicos)
-print('----------------------------------------------------------------------')
+print('\n')
 print(links_topicos)
-
+'''
