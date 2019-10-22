@@ -4,7 +4,11 @@
 Usa os dados da RBAC para criação de entidades e inteções do JaderBot
 '''
 
-# cria as inteções com os títulos
+'''
+=== cria as inteções com os títulos ===
+Criar no dialogflow as intenções(tutorial) com os titulos dos tópicos
+
+'''
 # cria as entidades de alguma maneira
 
 
