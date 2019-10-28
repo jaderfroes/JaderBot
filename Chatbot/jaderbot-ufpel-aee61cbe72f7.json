@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "jaderbot-ufpel",
+  "private_key_id": "aee61cbe72f7d889bb45fec326a5472fcd11e011",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0YuoaHtM0Sm9u\nuxgNNE5u5iqP1d5l0Q7miQAAs29pYNce65XCeyRvF6Kc6P4sYSL70hxOUDIPZvEF\nJouzXag5NQtAv9wTQCQKOfaN+VkYx0if1EoHqORU8yT2BpGvwRBgVKHQuh1/MWRJ\npKTDif61XpNe1xeDg9BWClxWEnmh6jwQGnupWSLhbNRj/acTPGxDRXMR40miq5Wh\nu+V7N9C7TuxfCCF21JkvotNqPvUdcfBmdLf2Adk6a7md1a+V0+hytxpv6WXGJ6kD\nI3t+uf8pG3z34olt6yTR+Ly49hfuoQhPq/cqltRIgF2o5OM3ANMwpdmOUZ+NJCne\nfvOF6pFBAgMBAAECggEAQ3cHNVO4DEOWn6Rr32xjtUhyPK9xaUUiPIiarqhtj8z/\nR/o2XbFus/n0AJmHjpOZ4PL5UTTfNDF9DT8YWrI5m4PCPKpFJhIEKKr7EqhicUj/\nWX+tXGYHV9pERZu5WzFq7YxZpNYm+A5CAuUIFnYDBFRl67+odLCU98kSNcLdKPfv\nibOPChtidxyWFhI1nxVhJfFLdVGfH3fhf5xcNF6u9XpdQX7Z+AlIDvK4x/eSRRNR\nwbPZUJHOSxSy55WU4dX0F6ENIBlDP47lxWF3bJS1FZdNOq5Wdd4ek1HYjuX+vsDI\n09/maMvI6ZIf1g3ZPL/K73vYymyrzMtVDw9rW+D8fQKBgQDtbpJqFl7nQ54VinVP\n3HiHs3wqyXiJyuXziSM+SjPXSGT+q7+cO446Z+xFHDR9+oO7I1K+V9gGY0oghyzF\nfr9HcdoE4Kdi5RWI0fN0MoaBLl/9x3JxKxnfSVPAhXJSu1coXmnDIOeoqnTUSSUD\nnLzZ+/kFtb3mIzsj5eYMRO82/wKBgQDCfkfxg36eZLKbRQWqONqjWBpmIv6IDxhq\nPCEWupbBScqOgIiKAXk7ofhA18FvuYVD/QuSZymYYoVUp5G70U3SljcoiQoZbiaX\n1sowMm8HLtW+xjP8hNG/V0fFacRcjRqbuU+3GJC6cyO4qfWgjfuTsd+Cw574bgDG\ncd8S+yB3vwKBgD5OW+G3CSSLG/rvIKXaZ07FDPp1cEpIklt8S2FXO49tEgO6skef\nYU12ZAwmwKemi9caB+anSqsydwteLaOOBUgMWngZNBPBpgsHfWmqsJ1JvCruoduM\nwfdUWMQWwM9xFggj7oEkK2aZhJsIrsvp360ccFbNQI4aBLUA6YOiu1ulAoGAeCHI\nDkVKUEuihoV7mkjDw2EH7U5wKVopmnTJe2CE/Z62no6Fx7hhSZQh4uthb8EHr5b9\nLtDJwHYaJM/cFEaT6x8dssvykQKYk/D3sg10xtsG629BbRgc9jLTAfzybLg7VzR/\nKHjj7EZyKf3Q2frZCcE0bXCnIIvRrsFnKDI1O8ECgYEAuQP79dqUaPyi075crrAN\nu8TshZxahu7w2G42oQv18z/xC87EMLpaFPt/jxlzRfZusxKxbR5PDPd5vj8rFF37\no/IpOjzSwVzxcBcacA+XqamzecXVxk3dKeTFyqa2TRVaR0bkKpsfWJbLF27V4qpW\nuwZ2aIv7KCHV0byu5FkedTI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "jaderbot-ufpel-conta@jaderbot-ufpel.iam.gserviceaccount.com",
+  "client_id": "112640260118787082032",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jaderbot-ufpel-conta%40jaderbot-ufpel.iam.gserviceaccount.com"
+}
