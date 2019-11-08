@@ -1,4 +1,4 @@
-import dialogflow_v2
+import dialogflow_v2 as dialogflow
 from google.api_core.exceptions import InvalidArgument
 
 '''
@@ -16,20 +16,35 @@ Usa os dados da RBAC para criação de entidades e inteções do JaderBot
 
 '''
 
-def implicit():
-    from google.cloud import storage
+def create_intent(project_id, display_name, training_phrases_parts,
+                  message_texts):
+    """Create an intent of the given intent type."""
+    intents_client = dialogflow.IntentsClient()
+    
+    parent = intents_client.project_agent_path(project_id)
+    training_phrases = []
+    #for training_phrases_part in training_phrases_parts:
+    part = dialogflow.types.Intent.TrainingPhrase.Part(
+        text=training_phrases_parts)
+        # Here we create a new training phrase for each provided part.
+    training_phrase = dialogflow.types.Intent.TrainingPhrase(parts=[part])
+    training_phrases.append(training_phrase)
+    
+    text = dialogflow.types.Intent.Message.Text(text=message_texts)
+    message = dialogflow.types.Intent.Message(text=text)
+    
+    intent = dialogflow.types.Intent(
+        display_name=display_name,
+        training_phrases=training_phrases,
+        messages=[message])
 
-    # If you don't specify credentials when constructing the client, the
-    # client library will look for credentials in the environment.
-    storage_client = storage.Client()
+    response = intents_client.create_intent(parent, intent)
 
-    # Make an authenticated API request
-    buckets = list(storage_client.list_buckets())
-    print(buckets)
-# [END auth_cloud_implicit]
+    print('Intent created: {}'.format(response))
 
-def cria_lista(caminho):  # le arquivos com os dados e retorna uma lista
 
+def cria_lista(caminho):  
+    ''' le arquivos com os dados e retorna uma lista'''
     arquivo = open(caminho, 'r')
     aux = []
     lista = []
@@ -49,24 +64,18 @@ def main():
     links_topicos = []
     path_links = 'links_topicos.txt'
     path_titulos = 'titulos_topicos.txt'
-
     links_topicos = cria_lista(path_links)
+    project_id = 'jaderbot-ufpel'
     titulos_topicos = cria_lista(path_titulos)
-    #  print(links_topicos)
-    #  print(titulos_topicos)
+    display_name = ' '
     
-    print("chamando implicit")
-    implicit()
-    
-    # conexão com API
-    '''
-    client = dialogflow_v2.IntentsClient()
-    parent = client.project_agent_path('jaderbot-ufpel') 
-    
-    # TODO: Initialize `intent`:
-    intent = {titulos_topicos[0]: 0}
-    response = client.create_intent(parent, intent)
-    '''
+    ''' Cria as intents com os titulos dos tópicos'''
+    for i in range(len(titulos_topicos)):
+        display_name = titulos_topicos[i]
+        if len(display_name) > 100:  # limite de char para nome de intent
+            display_name = display_name[:99]
+        create_intent(project_id, display_name, titulos_topicos[i],
+                      links_topicos[i])
 
 
 if __name__ == "__main__":

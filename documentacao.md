@@ -37,6 +37,7 @@
 
 ### Conexão com a API
 1- autenticar a API - https://cloud.google.com/docs/authentication/getting-started
+                    - https://cloud.google.com/dialogflow/docs/quick/api#detect-intent-text-python
     seta a variável de ambiente no mesmo 'terminal' do SDK:
         $ export GOOGLE_APPLICATION_CREDENTIALS="/home/jader/Documentos/DadosUFPEL/UFPEL/TCC/Chatbot/JaderBot/Chatbot/jaderbot-ufpel-aee61cbe72f7.json"
 
@@ -51,4 +52,7 @@
     na aba do SDK, testa o google SDK:
         gcloud auth application-default print-access-token
 
-    ele retornou a credencial: ya29.c.Kl6vB1qrZCaNnEsF1wPe9USjZKJfgR-3QcVeaOWSlUbK6P1KnyTLuHU3du1b3x0nhs1y4hh-Rp7NpsGZlCYqaQWO3SdhULNpqm_eMGI9PthMHdLjVIa0X-VWrq8e0pSd
+    ele retorna uma credencial: 
+    ya29.c.Kl6wB9YI505jtVyGQWUhgahI-OoLJ0z6TXtCvwd4ITSkvBhmNDcL6EIKlSIsMksS3Js6OpL3ZWjNU3_xbekMiwPcMPQlUlOBlv8LR84Cr7RkIBiy4-GgijXve_120Ldz
+
+
