@@ -40,6 +40,9 @@
     seta a variável de ambiente no mesmo 'terminal' do SDK:
         $ export GOOGLE_APPLICATION_CREDENTIALS="/home/jader/Documentos/DadosUFPEL/UFPEL/TCC/Chatbot/JaderBot/Chatbot/jaderbot-ufpel-aee61cbe72f7.json"
 
+    instalar biblioteca para autenticação
+    $ pip install --upgrade google-cloud-storage
+
     inicializa o google SDK:
         $ ./Downloads/google-cloud-sdk/bin/gcloud init
 
@@ -47,3 +50,5 @@
     
     na aba do SDK, testa o google SDK:
         gcloud auth application-default print-access-token
+
+    ele retornou a credencial: ya29.c.Kl6vB1qrZCaNnEsF1wPe9USjZKJfgR-3QcVeaOWSlUbK6P1KnyTLuHU3du1b3x0nhs1y4hh-Rp7NpsGZlCYqaQWO3SdhULNpqm_eMGI9PthMHdLjVIa0X-VWrq8e0pSd

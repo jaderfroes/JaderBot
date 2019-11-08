@@ -16,6 +16,17 @@ Usa os dados da RBAC para criação de entidades e inteções do JaderBot
 
 '''
 
+def implicit():
+    from google.cloud import storage
+
+    # If you don't specify credentials when constructing the client, the
+    # client library will look for credentials in the environment.
+    storage_client = storage.Client()
+
+    # Make an authenticated API request
+    buckets = list(storage_client.list_buckets())
+    print(buckets)
+# [END auth_cloud_implicit]
 
 def cria_lista(caminho):  # le arquivos com os dados e retorna uma lista
 
@@ -44,12 +55,18 @@ def main():
     #  print(links_topicos)
     #  print(titulos_topicos)
     
+    print("chamando implicit")
+    implicit()
+    
+    # conexão com API
+    '''
     client = dialogflow_v2.IntentsClient()
     parent = client.project_agent_path('jaderbot-ufpel') 
     
     # TODO: Initialize `intent`:
-    intent = {titulos_topicos[0]: "teste"}
+    intent = {titulos_topicos[0]: 0}
     response = client.create_intent(parent, intent)
+    '''
 
 
 if __name__ == "__main__":
