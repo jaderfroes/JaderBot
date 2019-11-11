@@ -1,8 +1,9 @@
 import dialogflow_v2 as dialogflow
+import argparse
 from google.api_core.exceptions import InvalidArgument
 
 '''
-Usa os dados da RBAC para criação de entidades e inteções do JaderBot
+Usa os dados da RBAC para criação de inteções do JaderBot
 '''
 
 '''
@@ -10,11 +11,19 @@ Usa os dados da RBAC para criação de entidades e inteções do JaderBot
  autenticar a API - https://cloud.google.com/docs/authentication/getting-started
     seta a variável de ambiente:
         $ export GOOGLE_APPLICATION_CREDENTIALS="/home/jader/Documentos/DadosUFPEL/UFPEL/TCC/Chatbot/JaderBot/Chatbot/jaderbot-ufpel-aee61cbe72f7.json"
-
- pegar o 'parent' pq ele indica para qual agente criar a intenção
- Criar no dialogflow as intenções(tutorial) com os titulos dos tópicos
-
 '''
+
+
+def topicos_intencoes(titulos_topicos, links_topicos, project_id):
+    '''cria as intenções a partir dos tópicos recebidos'''
+
+    for i in range(len(titulos_topicos)):
+        display_name = titulos_topicos[i]
+        if len(display_name) > 100:  # limite de char para nome de intent
+            display_name = display_name[:99]
+        create_intent(project_id, display_name, titulos_topicos[i],
+                      [links_topicos[i]])
+
 
 def create_intent(project_id, display_name, training_phrases_parts,
                   message_texts):
@@ -23,16 +32,16 @@ def create_intent(project_id, display_name, training_phrases_parts,
     
     parent = intents_client.project_agent_path(project_id)
     training_phrases = []
-    #for training_phrases_part in training_phrases_parts:
+    
     part = dialogflow.types.Intent.TrainingPhrase.Part(
         text=training_phrases_parts)
-        # Here we create a new training phrase for each provided part.
     training_phrase = dialogflow.types.Intent.TrainingPhrase(parts=[part])
     training_phrases.append(training_phrase)
-    
+
+
     text = dialogflow.types.Intent.Message.Text(text=message_texts)
     message = dialogflow.types.Intent.Message(text=text)
-    
+      
     intent = dialogflow.types.Intent(
         display_name=display_name,
         training_phrases=training_phrases,
@@ -67,15 +76,10 @@ def main():
     links_topicos = cria_lista(path_links)
     project_id = 'jaderbot-ufpel'
     titulos_topicos = cria_lista(path_titulos)
-    display_name = ' '
-    
+
     ''' Cria as intents com os titulos dos tópicos'''
-    for i in range(len(titulos_topicos)):
-        display_name = titulos_topicos[i]
-        if len(display_name) > 100:  # limite de char para nome de intent
-            display_name = display_name[:99]
-        create_intent(project_id, display_name, titulos_topicos[i],
-                      links_topicos[i])
+    topicos_intencoes(titulos_topicos[0:4], links_topicos[0:4], project_id)
+    #  print(len(titulos_topicos))
 
 
 if __name__ == "__main__":
