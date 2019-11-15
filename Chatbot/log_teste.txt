@@ -1,0 +1,780 @@
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/c98510bb-c369-4200-975b-b2baa0c9ade9"
+display_name: "Reuni\303\243o para inicio dos trabalhos... =)"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/reuniao-para-inicio-dos-trabalhos/396"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/69bc4e6d-481a-462f-843b-fff8f6cd14d0"
+display_name: "Sobre a categoria Refer\303\252ncias e Fundamentos Te\303\263ricos"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-referencias-e-fundamentos-teoricos/36"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/d19f5c5b-b301-4953-ae96-0c24e02fed22"
+display_name: "Cole\303\247\303\243o de livros sobre Makerspace da No Starch Press"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/colecao-de-livros-sobre-makerspace-da-no-starch-press/2267"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/f554efd4-17ec-47cb-8408-45a801785c02"
+display_name: "Artigo Publicado: Do Logo ao Pensamento Computacional"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/artigo-publicado-do-logo-ao-pensamento-computacional/1832"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/15b26390-e74f-4407-8d78-e7ed1f47f41d"
+display_name: "Livro POSSIBILIDADES, CONTRIBUI\303\207\303\225ES E DESAFIOS DAS FERRAMENTAS DA INFORM\303\201TICA NO ENSINO DAS CI\303\212NCIA"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/livro-possibilidades-contribuicoes-e-desafios-das-ferramentas-da-informatica-no-ensino-das-ciencias-fisicas-quimicas-e-biologicas/1523"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/bda4c68c-9eb8-4d9e-81f1-58981fcedee1"
+display_name: "Http://www.brazilmonitor.com/index.php/2017/08/24/visionaries-are-creating-the-future-a-proposal-fo"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/http-www-brazilmonitor-com-index-php-2017-08-24-visionaries-are-creating-the-future-a-proposal-for-the-massification-of-personalized-learning/1328"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/e3da2fba-216b-4ae0-87e7-8568f1462107"
+display_name: "Texto Papert - LOGO Computadores e Educa\303\247\303\243o"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/texto-papert-logo-computadores-e-educacao/331"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/6aea1701-590d-43f5-a644-b0f23f911e33"
+display_name: "Encontro dia 12/01"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/encontro-dia-12-01/250"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/3ae6fecd-2985-4ee0-bb70-01fbaaa77af3"
+display_name: "Fundamenta\303\247\303\243o Te\303\263rica"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/fundamentacao-teorica/161"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/a87c1c4f-bb93-4f86-9cd8-6d3e49366a41"
+display_name: "Tradu\303\247\303\243o de refer\303\252ncias"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/traducao-de-referencias/73"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/5ddbd03d-0dea-41bc-8060-8cd2be4f4275"
+display_name: "Sobre a categoria Universidades Criativas"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-universidades-criativas/81"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/b8f09b9e-8e2c-4950-abe7-afdddaba2d2d"
+display_name: "Casos em Universidades"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/casos-em-universidades/3596"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/c6d66a5e-fbbe-4583-a4bd-6188c632a1fe"
+display_name: "Ensino Superior: Aprendizagem criativa ou criatividade em aprendizagem?"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/ensino-superior-aprendizagem-criativa-ou-criatividade-em-aprendizagem/4918"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/a5144d6a-fedc-4380-977c-64edab53650a"
+display_name: "Lan\303\247amento: construcionismo e pensamento computacional"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/lancamento-construcionismo-e-pensamento-computacional/5302"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/70145d47-18fb-4ca0-8f4b-314c1c5638aa"
+display_name: "1\302\272 Hackathon Inova\303\247\303\265es UFG"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/1-hackathon-inovacoes-ufg/4768"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/ddb3d13d-b696-4c9e-bba6-99e32acb067e"
+display_name: "Oportunidades para publica\303\247\303\243o de pesquisas"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/oportunidades-para-publicacao-de-pesquisas/4653"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/bc303054-28e7-48c2-b8b3-0326b2cc0e3f"
+display_name: "Atividades de dissemina\303\247\303\243o"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/atividades-de-disseminacao/4053"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/e9f6ebf6-ff1a-4a9d-84aa-f48b0ab4c491"
+display_name: "Apresenta\303\247\303\265es do GT"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/apresentacoes-do-gt/3100"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/e0f5343b-b42f-42ad-aa55-97a37c4ae6e7"
+display_name: "Aplicativos e Ensino"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/aplicativos-e-ensino/1559"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/24bb3f03-681a-4c69-a32a-565f0398095c"
+display_name: "Sobre a categoria Festival de Inven\303\247\303\243o e Criatividade (FIC)"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-festival-de-invencao-e-criatividade-fic/2319"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/9c07d2cd-9c52-4465-a540-39a67faae270"
+display_name: "2\302\260 FIC - Festival de Inven\303\247\303\243o e Criatividade de Guarulhos no dia 24 de outubro!"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/2-fic-festival-de-invencao-e-criatividade-de-guarulhos-no-dia-24-de-outubro/6023"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/12df231b-eb42-4aa8-9461-69c8f0ca6a3d"
+display_name: "Sobre a categoria Escolas"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-escolas/41"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/fb5ecaf7-05fe-4488-93e7-e7f7ef059db0"
+display_name: "Curr\303\255culo de programa\303\247\303\243o em escolas p\303\272blicas"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/curriculo-de-programacao-em-escolas-publicas/281"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/0df3df55-44d0-4b4b-bd32-e2b7a92a46c4"
+display_name: "Como um Fab Lab pode revolucionar sua escola"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/como-um-fab-lab-pode-revolucionar-sua-escola/269"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/b1f87713-0261-4dab-b1ed-983d4e4fc371"
+display_name: "Visita do Mitchel Resnick no Amorim Lima"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/visita-do-mitchel-resnick-no-amorim-lima/2277"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/4c98f155-d19b-4600-92ec-cb1943e482c5"
+display_name: "Ardu\303\255no no Ensino de Ci\303\252ncias"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/arduino-no-ensino-de-ciencias/149"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/1c696c4f-8766-44a5-a238-fd1f68419b21"
+display_name: "Minilivro para montar, escrever, ler e expor"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/minilivro-para-montar-escrever-ler-e-expor/1614"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/f2773daf-8c1a-4762-a7f3-518a1529c604"
+display_name: "Vakinha para a OBR"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/vakinha-para-a-obr/1555"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/61dcfd92-7cb0-4622-b826-bf492030b68c"
+display_name: "Fabricados no Brasil, kits da Openrobotics viabiliza o ensino da rob\303\263tica em escolas p\303\272blicas"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/fabricados-no-brasil-kits-da-openrobotics-viabiliza-o-ensino-da-robotica-em-escolas-publicas/1511"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/bf4e3fe6-923c-4d0a-a48a-881ecd7b63b6"
+display_name: "Discuss\303\243o do Curr\303\255culo de Tecnologias na Aprendizagem"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/discussao-do-curriculo-de-tecnologias-na-aprendizagem/1370"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/bf977017-9ab0-4ffc-a3bc-e2e58ffcab87"
+display_name: "Palestra sobre Educa\303\247\303\243o Maker/Programa\303\247\303\243o e Rob\303\263tica + Oficina de Avi\303\265es de Papel"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/palestra-sobre-educacao-maker-programacao-e-robotica-oficina-de-avioes-de-papel/1341"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/6452b90c-5c1d-49ca-8d16-8b2d8d4442b9"
+display_name: "Acessibilidade educacional no dia a dia"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/acessibilidade-educacional-no-dia-a-dia/1306"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/2007a4fe-53a0-40f8-b782-dc0071d462f2"
+display_name: "Como fazer muito com pouco na educa\303\247\303\243o?"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/como-fazer-muito-com-pouco-na-educacao/1082"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/810712f3-90ec-4d3d-8024-e9e0b608d438"
+display_name: "Programa\303\247\303\243o por Blocos e Arduino"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/programacao-por-blocos-e-arduino/266"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/1bf9d187-a894-4402-8958-9abb5ffee2c1"
+display_name: "Ferramentas para Ensino de Programa\303\247\303\243o"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/ferramentas-para-ensino-de-programacao/633"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/2d7ea107-2525-49a8-8011-7cb5631bee70"
+display_name: "MediaMakers: aprendizagem criativa com m\303\255dia e narrativas digitais"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/mediamakers-aprendizagem-criativa-com-midia-e-narrativas-digitais/394"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/100c1f02-e117-4736-af71-ff8701c7109c"
+display_name: "Massifica\303\247\303\243o da Cultura Maker em escolas p\303\272blicas"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/massificacao-da-cultura-maker-em-escolas-publicas/262"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/9557a152-3c50-41f9-8a5e-0c21a9cbcea1"
+display_name: "Pesquisa sobre o uso do Scratch"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/2e18dfcc-7cea-4349-8eaa-b8b4ea9b08f6"
+display_name: "Lindos ambientes escolares"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/lindos-ambientes-escolares/188"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/406151d0-e3a1-418f-babe-1278f42c7f71"
+display_name: "Criando jogos com Scratch ou Snap! com tema de Hist\303\263ria"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/criando-jogos-com-scratch-ou-snap-com-tema-de-historia/132"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/81cd208c-1eb7-402d-aef4-9662f3bb71ce"
+display_name: "Sobre a categoria Novas Tecnologias, Servi\303\247os e Produtos"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-tecnologias-para-a-aprendizagem-criativa/83"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/9691a8a2-7054-48cd-a185-ef7cf494c2e0"
+display_name: "Aplicativos Android"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/aplicativos-android/4752"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/e5277a75-6891-4eb8-b00d-97d29f484d12"
+display_name: "Constru\303\247\303\243o de um Reposit\303\263rio REA sobre aprendizagem Criativa e Cultura Maker"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/construcao-de-um-repositorio-rea-sobre-aprendizagem-criativa-e-cultura-maker/571"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/c067e215-0fde-44ba-b2ef-9aa492d109c4"
+display_name: "Root - um rob\303\264 para ensinar a programar"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/root-um-robo-para-ensinar-a-programar/94"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/5e2ee67e-63ff-4dbb-91fe-244584870e2c"
+display_name: "Lojas de Ardu\303\255no"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/lojas-de-arduino/1446"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/9a9dce99-f93e-4a37-a03a-f8a7f3613246"
+display_name: "Forma\303\247\303\243o em M\303\251todos Ativos de Aprendizagem"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195"
+  }
+}
+
+Intent created: name: "projects/jaderbot-ufpel/agent/intents/b6ad1443-7d25-4ef1-9148-ed5c48d4bd35"
+display_name: "Cortadora a laser, indica\303\247\303\265es"
+priority: 500000
+messages {
+  text {
+    text: "https://forum.aprendizagemcriativa.org/t/cortadora-a-laser-indicacoes/1971"
+  }
+}
+
+>>>>>>>>>>>>>>>>>>>>
+Session path: projects/jaderbot-ufpel/agent/sessions/0
+
+====================
+Query text: Techcamps - Imersão em tecnologia lúdica
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Robogami - Origami com Robótica
+Detected intent: Fabricados no Brasil, kits da Openrobotics viabiliza o ensino da robótica em escolas públicas (confidence: 0.4414325952529907)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/fabricados-no-brasil-kits-da-openrobotics-viabiliza-o-ensino-da-robotica-em-escolas-publicas/1511
+
+====================
+Query text: Maker Code e Minecraft
+Detected intent: Massificação da Cultura Maker em escolas públicas (confidence: 0.43382054567337036)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/massificacao-da-cultura-maker-em-escolas-publicas/262
+
+====================
+Query text: Origami e Matemática
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Minecraft Edu - Projetos e Oficinas
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Origami Revolution - Matemática e ciência usando Origami
+Detected intent: Arduíno no Ensino de Ciências (confidence: 0.3813188970088959)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/arduino-no-ensino-de-ciencias/149
+
+====================
+Query text: Qual o tamanho do mercado de programação e robótica para crianças?
+Detected intent: Palestra sobre Educação Maker/Programação e Robótica + Oficina de Aviões de Papel (confidence: 0.3413906395435333)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/palestra-sobre-educacao-maker-programacao-e-robotica-oficina-de-avioes-de-papel/1341
+
+====================
+Query text: Sobre a categoria Scratch
+Detected intent: Sobre a categoria Escolas (confidence: 0.4120868742465973)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-escolas/41
+
+====================
+Query text: Curso de Aprendizado de Scratch
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Quem está criando (ou já criou) cursos de Scratch?
+Detected intent: Criando jogos com Scratch ou Snap! com tema de História (confidence: 0.47582218050956726)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/criando-jogos-com-scratch-ou-snap-com-tema-de-historia/132
+
+====================
+Query text: Computação Criativa - Livro do Estudante
+Detected intent: Livro POSSIBILIDADES, CONTRIBUIÇÕES E DESAFIOS DAS FERRAMENTAS DA INFORMÁTICA NO ENSINO DAS CIÊNCIA (confidence: 0.34747594594955444)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/livro-possibilidades-contribuicoes-e-desafios-das-ferramentas-da-informatica-no-ensino-das-ciencias-fisicas-quimicas-e-biologicas/1523
+
+====================
+Query text: Micromundos Scratch - offline
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.36215540766716003)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: Propostas de temas para o uso do Scratch no ensino de física
+Detected intent: Ferramentas para Ensino de Programação (confidence: 0.34526941180229187)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/ferramentas-para-ensino-de-programacao/633
+
+====================
+Query text: Curso online Scratch Básico - inscrições até 01/abril
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: V Scratch Day do Pioneiro: seja um scratcher convidado!
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.46233615279197693)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: Scratch no Espaço!
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.37152159214019775)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: PlayGo! O primeiro software brasileiro para ensinar programação e robótica, utilizando objetos interativos!
+Detected intent: Root - um robô para ensinar a programar (confidence: 0.46110427379608154)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/root-um-robo-para-ensinar-a-programar/94
+
+====================
+Query text: Fotos da Conferência Scratch Brasil 2017
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Sessão 3 - Relatos de prática: O Scratch no Ensino Fundamental e na Educação Infantil - Conferência Scrath 2017
+Detected intent: Como fazer muito com pouco na educação? (confidence: 0.36314162611961365)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/como-fazer-muito-com-pouco-na-educacao/1082
+
+====================
+Query text: Caronas para Conferência Scratch Brasil 2017
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Mitch Resnick na Conferência Scratch Brasil
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Conferência Scratch: resultado das submissões de propostas e abertura para inscrições!
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Segunda Reunião do GT Scratch Brasil - 15/8 , às 19h. Tema: como você trabalha com o Scratch?
+Detected intent: Reunião para inicio dos trabalhos... =) (confidence: 0.4093643128871918)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/reuniao-para-inicio-dos-trabalhos/396
+
+====================
+Query text: Scratch Day Brasil 2017 - 06/05
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.3047925531864166)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: Scratch Jr na Educação Infantil
+Detected intent: Como fazer muito com pouco na educação? (confidence: 0.4237007796764374)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/como-fazer-muito-com-pouco-na-educacao/1082
+
+====================
+Query text: Imagens PNG do Scratch - Blocos, Gatinho, etc
+Detected intent: Programação por Blocos e Arduino (confidence: 0.4277730882167816)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/programacao-por-blocos-e-arduino/266
+
+====================
+Query text: Scratch como ferramenta para projetos interdisciplinares
+Detected intent: Ferramentas para Ensino de Programação (confidence: 0.4725237190723419)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/ferramentas-para-ensino-de-programacao/633
+
+====================
+Query text: Primeira reunião do GT Scratch Brasil - 27/06 - 19h00
+Detected intent: Reunião para inicio dos trabalhos... =) (confidence: 0.36517849564552307)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/reuniao-para-inicio-dos-trabalhos/396
+
+====================
+Query text: Scratch Day - Rio de Janeiro
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Cartões para utilizar no Scratch Day
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Scratch Day Rio de Janeiro
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.310929536819458)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: É possível usar o Scratch para ensinar equações?
+Detected intent: Aplicativos e Ensino (confidence: 0.36650896072387695)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/aplicativos-e-ensino/1559
+
+====================
+Query text: Capacitação em Scratch - Pensando em Códigos 100% gratuito ;)
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Curso Scratch online
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.36215540766716003)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: IV Scratch Day no Pioneiro - Ministre uma oficina
+Detected intent: Palestra sobre Educação Maker/Programação e Robótica + Oficina de Aviões de Papel (confidence: 0.3540883958339691)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/palestra-sobre-educacao-maker-programacao-e-robotica-oficina-de-avioes-de-papel/1341
+
+====================
+Query text: Scratch Day em São Bernardo do Campo
+Detected intent: Pesquisa sobre o uso do Scratch (confidence: 0.45194023847579956)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/pesquisa-sobre-o-uso-do-scratch/271
+
+====================
+Query text: Sobre a categoria Ambientes Não-Formais de Aprendizagem
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.40264660120010376)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Comunidades de Aprendizagem (Documentário)
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.4968049228191376)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Educação Maker e Origami no Butantã
+Detected intent: Palestra sobre Educação Maker/Programação e Robótica + Oficina de Aviões de Papel (confidence: 0.5359295010566711)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/palestra-sobre-educacao-maker-programacao-e-robotica-oficina-de-avioes-de-papel/1341
+
+====================
+Query text: Espaço Maker Butantã - Cocriação
+Detected intent: Massificação da Cultura Maker em escolas públicas (confidence: 0.4716396629810333)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/massificacao-da-cultura-maker-em-escolas-publicas/262
+
+====================
+Query text: Pint of Science São Paulo 2018 - Um Brinde à Ciência
+Detected intent: Arduíno no Ensino de Ciências (confidence: 0.46651333570480347)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/arduino-no-ensino-de-ciencias/149
+
+====================
+Query text: Projeto Include - Canudos BA
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Espaço maker para crianças com Deficiência Intelectual
+Detected intent: Massificação da Cultura Maker em escolas públicas (confidence: 0.42867785692214966)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/massificacao-da-cultura-maker-em-escolas-publicas/262
+
+====================
+Query text: Curso de Inskcape e cortadora laser
+Detected intent: Cortadora a laser, indicações (confidence: 0.6144468784332275)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/cortadora-a-laser-indicacoes/1971
+
+====================
+Query text: SENATED - Educação Maker e Colaboração nas Práticas Educacionais
+Detected intent: Palestra sobre Educação Maker/Programação e Robótica + Oficina de Aviões de Papel (confidence: 0.5210190415382385)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/palestra-sobre-educacao-maker-programacao-e-robotica-oficina-de-avioes-de-papel/1341
+
+====================
+Query text: Currículo e Cultura Maker
+Detected intent: Massificação da Cultura Maker em escolas públicas (confidence: 0.43737953901290894)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/massificacao-da-cultura-maker-em-escolas-publicas/262
+
+====================
+Query text: Visita ao Museu Catavento Cultural
+Detected intent: Visita do Mitchel Resnick no Amorim Lima (confidence: 0.4867797791957855)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/visita-do-mitchel-resnick-no-amorim-lima/2277
+
+====================
+Query text: Mediação e processos participativosParticipação
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Sobre a categoria Desenvolvimento Profissional e Geração de Renda
+Detected intent: Sobre a categoria Festival de Invenção e Criatividade (FIC) (confidence: 0.3553679883480072)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-festival-de-invencao-e-criatividade-fic/2319
+
+====================
+Query text: Aprendizagem Criativa Online + Presencial - Blended Learning
+Detected intent: Ensino Superior: Aprendizagem criativa ou criatividade em aprendizagem? (confidence: 0.413280725479126)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/ensino-superior-aprendizagem-criativa-ou-criatividade-em-aprendizagem/4918
+
+====================
+Query text: Temos Vagas - Espaço de Aprendizagem Criativa (Monitores)
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.36284804344177246)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Temos Vagas - Espaço de Aprendizagem Criativa (Técnico)
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.36284804344177246)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Temos Vagas - Espaço de Aprendizagem Criativa
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.36284804344177246)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Produtos com MDF/Acrílico - Corte a Laser e Inkscape
+Detected intent: Sobre a categoria Novas Tecnologias, Serviços e Produtos (confidence: 0.3940701484680176)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/sobre-a-categoria-tecnologias-para-a-aprendizagem-criativa/83
+
+====================
+Query text: Origami - Entrevista com Robert Lang
+Detected intent:  (confidence: 0.0)
+
+Fulfillment text: 
+
+====================
+Query text: Oportunidades: Vagas abertas no Nave à Vela / CAOS Focado
+Detected intent: Oportunidades para publicação de pesquisas (confidence: 0.4691098928451538)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/oportunidades-para-publicacao-de-pesquisas/4653
+
+====================
+Query text: Qual o perfil dos novos profissionais da Aprendizagem Criativa?
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.383346289396286)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Sobre a categoria Formação de  Educadores
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.351002037525177)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+
+====================
+Query text: Formação: Aprendizagem Criativa na Escola
+Detected intent: Formação em Métodos Ativos de Aprendizagem (confidence: 0.40873393416404724)
+
+Fulfillment text: https://forum.aprendizagemcriativa.org/t/formacao-em-metodos-ativos-de-aprendizagem/2195
+

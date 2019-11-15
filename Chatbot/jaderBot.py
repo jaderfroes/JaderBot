@@ -1,6 +1,7 @@
 import dialogflow_v2 as dialogflow
 import argparse
 from google.api_core.exceptions import InvalidArgument
+import random
 
 '''
 Usa os dados da RBAC para criação de inteções do JaderBot
@@ -67,6 +68,51 @@ def cria_lista(caminho):
     return lista
 
 
+def detect_intent_texts(project_id, session_id, texts, language_code):
+    """Returns the result of detect intent with texts as inputs.
+    Using the same `session_id` between requests allows continuation
+    of the conversation."""
+    # import dialogflow_v2 as dialogflow
+    session_client = dialogflow.SessionsClient()
+
+    session = session_client.session_path(project_id, session_id)
+    print('Session path: {}\n'.format(session))
+
+    for text in texts:
+        text_input = dialogflow.types.TextInput(
+            text=text, language_code=language_code)
+
+        query_input = dialogflow.types.QueryInput(text=text_input)
+
+        response = session_client.detect_intent(
+            session=session, query_input=query_input)
+
+        print('=' * 20)
+        print('Query text: {}'.format(response.query_result.query_text))
+        print('Detected intent: {} (confidence: {})\n'.format(
+            response.query_result.intent.display_name,
+            response.query_result.intent_detection_confidence))
+        print('Fulfillment text: {}\n'.format(
+            response.query_result.fulfillment_text))
+
+
+def teste_agente(entradas, project_id):
+
+    detect_intent_texts(project_id, 0, entradas, 'pt-BR')
+
+
+def gera_num_aleatorio(n):
+    '''gera lista de n numeros aleatórios'''
+    
+    lista_num_aleatorios = []
+    limite = int(n/2)
+
+    for i in range(0, limite):
+        x = random.randint(0, n)
+        lista_num_aleatorios.append(x)
+
+    return lista_num_aleatorios
+
 def main():
 
     titulos_topicos = []
@@ -76,10 +122,28 @@ def main():
     links_topicos = cria_lista(path_links)
     project_id = 'jaderbot-ufpel'
     titulos_topicos = cria_lista(path_titulos)
+    titulos_intencoes = []  # titulos que viram intencoes
+    links_intencoes = []  # links que serao usados como resposta
+    titulos_teste = []  # titulos que simulam entrada de usuário
 
-    ''' Cria as intents com os titulos dos tópicos'''
-    topicos_intencoes(titulos_topicos[0:4], links_topicos[0:4], project_id)
-    #  print(len(titulos_topicos))
+    indices_aleatorios = gera_num_aleatorio(len(titulos_topicos))
+    print(indices_aleatorios)
+
+    for i in range(0, len(titulos_topicos)):
+        if i in indices_aleatorios:  # usados para treino do agente
+            titulos_intencoes.append(titulos_topicos[i])  
+            links_intencoes.append(links_topicos[i])
+        else:  # usado para testes do agente
+            titulos_teste.append(titulos_topicos)
+
+    ''' Cria as intents com a lista de titulos dos tópicos'''
+    # topicos_intencoes(titulos_intencoes, links_intencoes, project_id)
+    
+    print(20*'>')
+    '''Testas as intencoes'''
+    # teste_agente(titulos_teste, project_id)
+
+
 
 
 if __name__ == "__main__":
