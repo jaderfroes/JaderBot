@@ -53,7 +53,7 @@ def create_intent(project_id, display_name, training_phrases_parts,
     print('Intent created: {}'.format(response))
 
 
-def cria_lista(caminho):  
+def cria_lista(caminho):
     ''' le arquivos com os dados e retorna uma lista'''
     arquivo = open(caminho, 'r')
     aux = []
@@ -97,21 +97,18 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
 
 
 def teste_agente(entradas, project_id):
-
+    ''' '''
+    #frase = []
+    #for i in entradas:
+        #frase = entradas[i]
     detect_intent_texts(project_id, 0, entradas, 'pt-BR')
 
 
-def gera_num_aleatorio(n):
-    '''gera lista de n numeros aleatórios'''
-    
-    lista_num_aleatorios = []
-    limite = int(n/2)
+def gera_num_aleatorio(n, limite):
+    '''gera lista de n numeros aleatórios entre 0 e lim'''
 
-    for i in range(0, limite):
-        x = random.randint(0, n)
-        lista_num_aleatorios.append(x)
+    return random.sample(range(limite), n)
 
-    return lista_num_aleatorios
 
 def main():
 
@@ -126,25 +123,24 @@ def main():
     links_intencoes = []  # links que serao usados como resposta
     titulos_teste = []  # titulos que simulam entrada de usuário
 
-    indices_aleatorios = gera_num_aleatorio(len(titulos_topicos))
-    print(indices_aleatorios)
-
+    indices_aleatorios = gera_num_aleatorio(55, len(titulos_topicos))
+    
     for i in range(0, len(titulos_topicos)):
         if i in indices_aleatorios:  # usados para treino do agente
-            titulos_intencoes.append(titulos_topicos[i])  
+            titulos_intencoes.append(titulos_topicos[i])
             links_intencoes.append(links_topicos[i])
         else:  # usado para testes do agente
-            titulos_teste.append(titulos_topicos)
+            titulos_teste.append(titulos_topicos[i])
+
+    print(len(titulos_teste), "para testes\n", len(titulos_intencoes), "para treino")
 
     ''' Cria as intents com a lista de titulos dos tópicos'''
-    # topicos_intencoes(titulos_intencoes, links_intencoes, project_id)
+    topicos_intencoes(titulos_intencoes, links_intencoes, project_id)
     
-    print(20*'>')
+    print(80*'>')
     '''Testas as intencoes'''
-    # teste_agente(titulos_teste, project_id)
-
-
-
+    print(titulos_teste)
+    teste_agente(titulos_teste, project_id)
 
 if __name__ == "__main__":
     main()
