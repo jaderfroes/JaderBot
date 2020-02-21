@@ -1,5 +1,5 @@
 # JaderBot
-JaderBot is a chatbot that connects users of the Rede Brasileira de Aprendizagem Criativa who are working on related work. 
+JaderBot é um chatbot que procura identificar semelhanças em enunciados em fóruns virtuais afim de localizar duplicatas de dados nesse tipo de site.
 
 ## Web Crawler
     Dados extraídos do fórum da RBAC para entidades e inteções do chatbot.
